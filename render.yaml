@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: pro-media-downloader
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_IDS
+        value: "6836865426"
+      - key: PORT
+        value: "10000"
+      - key: MAX_CONCURRENT_DOWNLOADS
+        value: "2"
