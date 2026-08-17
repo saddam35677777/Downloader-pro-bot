@@ -1,0 +1,7 @@
+python-telegram-bot==21.4
+yt-dlp==2024.08.06
+Flask==3.0.3
+aiosqlite==0.20.0
+python-dotenv==1.0.1
+psutil==6.0.0
+nest-asyncio==1.6.0
